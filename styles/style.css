@@ -86,7 +86,7 @@ header {
 
 .banner-img-container {
     padding: 30px 50px 30px 2px;
-    background-image: url(images/Circle\ design.svg);
+    background-image: url(/images/circlebg.svg);
     background-repeat: no-repeat;
 }
 
@@ -147,7 +147,7 @@ header {
 
     .nav-items ul {
         gap: 40px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .banner-container{
