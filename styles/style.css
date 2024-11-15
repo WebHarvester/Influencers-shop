@@ -85,10 +85,176 @@ header {
 }
 
 .banner-img-container {
-    padding: 30px 50px 30px 2px;
+    padding: 30px;
     background-image: url(/images/circlebg.svg);
     background-repeat: no-repeat;
 }
+
+
+/* Brand Logo Styles */
+
+.brand-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+
+/* Main section Design */
+
+/* Popular Section Design */
+
+.popular-section {
+    margin: 80px 180px;
+}
+
+
+.popular-card {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.popular-title {
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.card-items .card-image {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.card-items .card-title {
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.card-items .card-price {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+    text-align: left;
+
+}
+
+.card-items .card-description {
+    color: #787885;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.card-items {
+    padding: 15px;
+}
+
+.popular-card {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.popular-card-container {
+    display: grid;
+    gap: 44px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.see-more-container a {
+    text-decoration: none;
+}
+
+.see-more-container .see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: right;
+}
+
+
+/* Featured Style */
+
+.featured-section {
+    margin: 100px 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .btn-featured {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 700;
+ }
+
+ .featured-title {
+    font-size: 2.4rem;
+    color: #0A0826;
+    margin-bottom: 6px;
+ }
+
+ .featured-description {
+    color: #6C6C6C;
+    margin-bottom: 6px;
+
+ }
+
+ .arrow-featured {
+    margin-left: 6px;
+ }
+
+ .featured-image {
+    border-radius: 5px;
+ }
+
+
+/* Footer Design */
+
+footer {
+    background-color: #0A0826;
+    text-align: center;
+}
+
+.footer-content {
+    color: #FFF;
+    padding: 30px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+}
+
+.copyright, .rights {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-icons .fa-brands {
+    margin: 0px 16px;
+}
+
+
+
+
+
+
 
 
 /* Responsive design */
@@ -129,7 +295,42 @@ header {
         text-align: center;
     }
 
+    .brand-container { 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
 
+    .brand-container .target {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .popular-card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular-section {
+        margin: 80px 30px;
+    } 
+
+    .featured-section {
+        flex-direction: column-reverse;
+        margin: 80px 30px;
+    }
+    .featured-content {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .featured-description {
+        padding: 10px;
+    }
+    .featured-title {
+        line-height: 40px;
+    }
+
+    
     
 }
 
@@ -170,8 +371,56 @@ header {
     .banner-content P {
         text-align: center;
     }
+
+    .brand-container { 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .brand-container .target {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .popular-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .action-camera {
+        grid-column: span 2;
+        justify-content: center;
+    }
+
+    .popular-section {
+        margin: 80px 60px;
+    } 
+
+    .featured-section {
+        flex-direction: column-reverse;
+        margin: 80px 30px;
+    }
+    .featured-content {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .featured-description {
+        padding: 10px;
+    }
+    .featured-title {
+        line-height: 40px;
+    }
+
+    
+
+
+
+
    
 }
 
   
  
+
+
