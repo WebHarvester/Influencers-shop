@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* header style start */
+header {
+    margin: 60px 120px;
+}
+
+/* nav styles */
+
+.nav-title h3 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-items li {
+    list-style: none;
+    margin: 25px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Banner Styles */
+
+.banner-content h1 {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+
+
+.banner-content p {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 16px;
+    max-width: 582px;
+}
+
+
+
+.banner-content button {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    font-weight: 700;
+}
+
+.banner-content .btn-arrow {
+    margin-left: 8px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat; */
+    background-position: right;
+    margin-top: 80px;
+}
+
+.banner-img-container {
+    padding: 30px 50px 30px 2px;
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* Responsive design */
+
+/* For mobile device */
+
+@media screen and (max-width:576px) {
+    header {
+        margin: 50px 25px;
+    }
+    
+    
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items a {
+        font-size: 14px;
+    }
+    
+}
+
+
+/* For Tablet Device */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    header {
+        margin: 50px 25px;
+    }
+    
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items a {
+        font-size: 16px;
+    }
+
+ 
+} 
